@@ -1,4 +1,4 @@
-#Fan Site Analytics
+# Fan Site Analytics
 
 ## Introduction
 
@@ -11,9 +11,9 @@ In this [code challenge](https://github.com/InsightDataScience/fansite-analytics
 In my implementation, the basic data structure is a 'Fansitedatabase' which includes 4 major instance:
 
 - TimeTable: a data structure stores all information related to time, 3 instances:
-    -- a Map stores all time entries:  key: time in second / value: frequency (number of accesses)
-    -- current Time: current time at input stream
-    -- current frequency: total accesses at current time
+    - a Map stores all time entries:  key: time in second / value: frequency (number of accesses)
+    - current Time: current time at input stream
+    - current frequency: total accesses at current time
 
 - Failed Login Table: record failed login information
 
